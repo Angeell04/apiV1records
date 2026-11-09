@@ -1,0 +1,30 @@
+{
+  "name": "apiv1records",
+  "version": "1.0.0",
+  "description": "API REST v1 para gestión de records",
+  "license": "ISC",
+  "author": "Angel",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "apicache": "^1.6.3",
+    "cors": "^2.8.6",
+    "dotenv": "^16.4.7",
+    "express": "^5.3.0",
+    "helmet": "^8.3.0",
+    "tsx": "^4.23.15",
+    "uuid": "^14.0.3"
+  },
+  "devDependencies": {
+    "@types/apicache": "^1.6.8",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.5",
+    "typescript": "^5.7.0"
+  }
+}
